@@ -1,0 +1,116 @@
+{
+"app": {
+"name": "DEEZYBALL TV",
+"version": "1.0.0",
+"min_supported_version": "1.0.0",
+"developer": "DEEZY1INFO",
+"support_email": "deezy1info@gmail.com"
+},
+
+"maintenance": {
+"enabled": false,
+"title": "Maintenance",
+"message": "We are currently performing maintenance. Please try again later."
+},
+
+"update": {
+"force_update": false,
+"latest_version": "1.0.0",
+"update_url": "",
+"message": "A newer version of DEEZYBALL TV is available."
+},
+
+"announcement": {
+"enabled": false,
+"title": "",
+"message": ""
+},
+
+"ticker": {
+"enabled": true,
+"text": "Welcome to DEEZYBALL TV - Live Football Streaming",
+"speed": "medium",
+"style": "marquee",
+"position": "top",
+"loop": true,
+"background_color": "#000000",
+"text_color": "#FFFFFF"
+},
+
+"home_screen": {
+"show_live_matches": true,
+"show_upcoming_matches": true,
+"auto_refresh": true,
+"refresh_interval_seconds": 60
+},
+
+"player": {
+"player_engine": "ExoPlayer",
+"default_quality": "Auto",
+"enable_quality_selection": true,
+"enable_server_switching": true,
+"enable_auto_retry": true,
+"retry_attempts": 5,
+"enable_fallback_server": true,
+"fallback_timeout_seconds": 10,
+"enable_fullscreen": true,
+"enable_landscape_mode": true,
+"keep_screen_awake": true,
+"show_buffering_indicator": true,
+"auto_hide_controls": true,
+"control_hide_delay_seconds": 5
+},
+
+"streaming": {
+"supported_formats": [
+"m3u8",
+"mp4",
+"mkv",
+"dash",
+"http",
+"https"
+],
+"allow_http_streams": true,
+"allow_https_streams": true
+},
+
+"ads": {
+"enabled": false,
+"provider": "",
+"banner": {
+"enabled": false,
+"placement": "home_bottom",
+"ad_unit_id": ""
+},
+"interstitial": {
+"enabled": false,
+"show_after_match_open": false,
+"ad_unit_id": ""
+},
+"rewarded": {
+"enabled": false,
+"ad_unit_id": ""
+}
+},
+
+"splash_screen": {
+"enabled": true,
+"duration_seconds": 3,
+"show_loading_animation": true,
+"loading_animation_type": "circular",
+"show_developer_credit": true,
+"developer_credit_text": "By DEEZY1INFO",
+"developer_credit_animation": "typing"
+},
+
+"ui": {
+"theme": "dark",
+"enable_animations": true,
+"enable_fade_effects": true,
+"enable_slide_effects": true
+},
+
+"remote_data": {
+"matches_url": "https://raw.githubusercontent.com/Deezy1info2/Livefoot-data/main/matches.json"
+}
+}
