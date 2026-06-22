@@ -1,6 +1,6 @@
 {
 "app": {
-"name": "DEEZYBALL TV",
+"name": "livefoot",
 "version": "1.0.0",
 "min_supported_version": "1.0.0",
 "developer": "DEEZY1INFO",
@@ -17,7 +17,7 @@
 "force_update": false,
 "latest_version": "1.0.0",
 "update_url": "",
-"message": "A newer version of DEEZYBALL TV is available."
+"message": "A newer version of LIVEFOOT is available."
 },
 
 "announcement": {
@@ -28,7 +28,7 @@
 
 "ticker": {
 "enabled": true,
-"text": "Welcome to DEEZYBALL TV - Live Football Streaming",
+"text": "Welcome to LIVEFOOT - Live Football Streaming",
 "speed": "medium",
 "style": "marquee",
 "position": "top",
