@@ -1,52 +1,44 @@
 {
-  "updated_at": "2026-06-22",
   "matches": [
     {
-      "id": 1,
-      "competition": "UEFA Champions League",
+      "id": "match_001",
+      "title": "Real Madrid vs Barcelona",
+      "competition": "La Liga",
+      "homeTeamLogo": "https://example.com/logos/real_madrid.png",
+      "awayTeamLogo": "https://example.com/logos/barcelona.png",
+      "matchTime": "2026-06-23T20:00:00Z",
       "status": "LIVE",
-      "minute": "90'",
-
-      "home_team": {
-        "name": "Real Madrid",
-        "logo": "https://crests.football-data.org/86.png"
-      },
-
-      "away_team": {
-        "name": "Manchester City",
-        "logo": "https://crests.football-data.org/65.png"
-      },
-
-      "date": "2026-06-05",
-      "time": "21:00",
-
       "streams": [
-        "https://your-stream-server.com/live1.m3u8",
-        "https://backup-server.com/live1.m3u8"
+        { "label": "Server 1", "url": "https://cdn1.example.com/stream.m3u8" },
+        { "label": "Server 2", "url": "https://cdn2.example.com/stream.m3u8" },
+        { "label": "Server 3", "url": "https://cdn3.example.com/stream.m3u8" }
       ]
     },
-
     {
-      "id": 2,
+      "id": "match_002",
+      "title": "Liverpool vs Manchester City",
       "competition": "Premier League",
+      "homeTeamLogo": "https://example.com/logos/liverpool.png",
+      "awayTeamLogo": "https://example.com/logos/man_city.png",
+      "matchTime": "2026-06-23T17:30:00Z",
       "status": "UPCOMING",
-      "minute": "",
-
-      "home_team": {
-        "name": "Arsenal",
-        "logo": "https://crests.football-data.org/57.png"
-      },
-
-      "away_team": {
-        "name": "Chelsea",
-        "logo": "https://crests.football-data.org/61.png"
-      },
-
-      "date": "2026-06-23",
-      "time": "18:30",
-
       "streams": [
-        "https://backup-stream.com/arsenal-chelsea.m3u8"
+        { "label": "Server 1", "url": "https://cdn1.example.com/liverpool.m3u8" },
+        { "label": "Server 2", "url": "https://cdn2.example.com/liverpool.m3u8" }
+      ]
+    },
+    {
+      "id": "match_003",
+      "title": "Bayern Munich vs Dortmund",
+      "competition": "Bundesliga",
+      "homeTeamLogo": "https://example.com/logos/bayern.png",
+      "awayTeamLogo": "https://example.com/logos/dortmund.png",
+      "matchTime": "2026-06-23T19:30:00Z",
+      "status": "LIVE",
+      "streams": [
+        { "label": "Server 1", "url": "https://cdn1.example.com/bayern.m3u8" },
+        { "label": "Server 2", "url": "https://cdn2.example.com/bayern.m3u8" },
+        { "label": "Server 3", "url": "https://cdn3.example.com/bayern.m3u8" }
       ]
     }
   ]
