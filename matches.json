@@ -1,52 +1,54 @@
 {
-  "updated_at": "2026-06-22",
   "matches": [
     {
-      "id": 1,
-      "competition": "UEFA Champions League",
+      "id": "1",
+      "title": "Real Madrid vs Barcelona",
+      "competition": "La Liga",
+      "homeTeamLogo": "https://i.imgur.com/real_madrid.png",
+      "awayTeamLogo": "https://i.imgur.com/barcelona.png",
+      "matchTime": "20:00",
       "status": "LIVE",
-      "minute": "90'",
-
-      "home_team": {
-        "name": "Real Madrid",
-        "logo": "https://crests.football-data.org/86.png"
-      },
-
-      "away_team": {
-        "name": "Manchester City",
-        "logo": "https://crests.football-data.org/65.png"
-      },
-
-      "date": "2026-06-05",
-      "time": "21:00",
-
       "streams": [
-        "https://your-stream-server.com/live1.m3u8",
-        "https://backup-server.com/live1.m3u8"
+        {"label": "Server 1", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"},
+        {"label": "Server 2", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"},
+        {"label": "Server 3", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"}
       ]
     },
-
     {
-      "id": 2,
+      "id": "2",
+      "title": "Liverpool vs Man City",
       "competition": "Premier League",
-      "status": "UPCOMING",
-      "minute": "",
-
-      "home_team": {
-        "name": "Arsenal",
-        "logo": "https://crests.football-data.org/57.png"
-      },
-
-      "away_team": {
-        "name": "Chelsea",
-        "logo": "https://crests.football-data.org/61.png"
-      },
-
-      "date": "2026-06-23",
-      "time": "18:30",
-
+      "homeTeamLogo": "https://i.imgur.com/liverpool.png",
+      "awayTeamLogo": "https://i.imgur.com/man_city.png",
+      "matchTime": "17:30",
+      "status": "LIVE",
       "streams": [
-        "https://backup-stream.com/arsenal-chelsea.m3u8"
+        {"label": "Server 1", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"},
+        {"label": "Server 2", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"}
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Bayern Munich vs Dortmund",
+      "competition": "Bundesliga",
+      "homeTeamLogo": "https://i.imgur.com/bayern.png",
+      "awayTeamLogo": "https://i.imgur.com/dortmund.png",
+      "matchTime": "19:30",
+      "status": "UPCOMING",
+      "streams": [
+        {"label": "Server 1", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"}
+      ]
+    },
+    {
+      "id": "4",
+      "title": "PSG vs Marseille",
+      "competition": "Ligue 1",
+      "homeTeamLogo": "https://i.imgur.com/psg.png",
+      "awayTeamLogo": "https://i.imgur.com/marseille.png",
+      "matchTime": "21:00",
+      "status": "UPCOMING",
+      "streams": [
+        {"label": "Server 1", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"}
       ]
     }
   ]
