@@ -4,8 +4,8 @@
       "id": "match_001",
       "title": "Real Madrid vs Barcelona",
       "competition": "La Liga",
-      "homeTeamLogo": "https://example.com/logos/real_madrid.png",
-      "awayTeamLogo": "https://example.com/logos/barcelona.png",
+      "homeTeamLogo": "https://crests.football-data.org/86.png",
+      "awayTeamLogo": "https://crests.football-data.org/86.png",
       "matchTime": "2026-06-23T20:00:00Z",
       "status": "LIVE",
       "streams": [
@@ -15,11 +15,11 @@
       ]
     },
     {
-      "id": "match_003",
+      "id": "match_002",
       "title": "Bayern Munich vs Dortmund",
       "competition": "Bundesliga",
-      "homeTeamLogo": "https://example.com/logos/bayern.png",
-      "awayTeamLogo": "https://example.com/logos/dortmund.png",
+      "homeTeamLogo": "https://crests.football-data.org/86.png",
+      "awayTeamLogo": "https://crests.football-data.org/86.png",
       "matchTime": "2026-06-23T19:30:00Z",
       "status": "LIVE",
       "streams": [
